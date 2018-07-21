@@ -4,7 +4,7 @@ Page({
         cities : []
     },
     onChange(event){
-        console.log(event.detail,'click right menu callback data')
+        console.log(event.detail,'iclick right menu callback data')
     },
     onReady(){
         let storeCity = new Array(26);

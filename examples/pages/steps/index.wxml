@@ -82,7 +82,7 @@
             </view>
         </i-step>
     </i-steps>
-    <i-button bindclick="handleClick">下一步</i-button>
+    <i-button bindiclick="handleClick">下一步</i-button>
 
     <view class="one-tag">垂直方向</view>
     <i-steps current="{{verticalCurrent}}" direction="vertical">

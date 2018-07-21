@@ -31,7 +31,7 @@
 ```
 2. 在 wxml 中使用组件：
 ```html
-<i-button type="primary" bind:click="handleClick">这是一个按钮</i-button>
+<i-button type="primary" bind:iclick="handleClick">这是一个按钮</i-button>
 ```
 
 ### 预览所有组件

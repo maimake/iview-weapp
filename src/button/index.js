@@ -62,7 +62,7 @@ Component({
         handleTap () {
             if (this.data.disabled) return false;
 
-            this.triggerEvent('click');
+            this.triggerEvent('iclick');
         },
         bindgetuserinfo({ detail = {} } = {}) {
             this.triggerEvent('getuserinfo', detail);

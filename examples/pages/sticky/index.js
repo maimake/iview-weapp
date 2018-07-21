@@ -3,7 +3,7 @@ Page({
         scrollTop : 0
     },
     onChange(event){
-        console.log(event.detail,'click right menu callback data')
+        console.log(event.detail,'iclick right menu callback data')
     },
     //页面滚动执行方式
     onPageScroll(event){

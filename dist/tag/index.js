@@ -6,7 +6,7 @@ Component({
             type : String,
             value : ''
         },
-        //can click or not click
+        //can iclick or not iclick
         checkable : {
             type : Boolean,
             value : false
