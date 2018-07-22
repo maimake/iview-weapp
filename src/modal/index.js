@@ -49,6 +49,18 @@ Component({
         },
         handleClickCancel () {
             this.triggerEvent('cancel');
+        },
+        bindgetuserinfo({ detail = {} } = {}) {
+            this.triggerEvent('getuserinfo', detail);
+        },
+        bindcontact({ detail = {} } = {}) {
+            this.triggerEvent('contact', detail);
+        },
+        bindgetphonenumber({ detail = {} } = {}) {
+            this.triggerEvent('getphonenumber', detail);
+        },
+        binderror({ detail = {} } = {}) {
+            this.triggerEvent('error', detail);
         }
     }
 });
