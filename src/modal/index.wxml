@@ -32,7 +32,7 @@
     </view>
 </view>
 <template name="button">
-    <i-button long type="ghost" data-index="{{ index }}" bind:iclick="handleClickItem"
+    <i-button long type="ghost" data-index="{{ index }}" bind:iclick="handleClickItem" disabled="{{ item.disabled !== undefined ? item.disabled : false }}"
                 open-type="{{ item.openType }}"
                 bind:getuserinfo="bindgetuserinfo" bind:contact="bindcontact" bind:getphonenumber="bindgetphonenumber" bind:error="binderror">
         <view class="i-modal-btn-loading" wx:if="{{ item.loading }}"></view>
